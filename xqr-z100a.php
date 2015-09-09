@@ -31,7 +31,7 @@ add_filter( 'wp_insert_post_parent', 'xqr_z100a_filter_insert_post_parent', 10, 
 
 function xqr_z100a_filter_insert_post_parent( $post_parent, $post_ID ) {
 
-	if ( 'send-attachment-to-editor' != $_REQUEST['action'] ) {
+	if ( ! isset( $_REQUEST['action'] ) || 'send-attachment-to-editor' != $_REQUEST['action'] ) {
 		return $post_parent;
 	}
 

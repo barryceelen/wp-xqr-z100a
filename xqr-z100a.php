@@ -5,7 +5,7 @@
  * @package   XQR-Z100A
  * @author    Barry Ceelen <b@rryceelen.com>
  * @license   GPL-2.0+
- * @link      https://github.com/barryceelen/wp-fitvids
+ * @link      https://github.com/barryceelen/wp-xqr-z100a
  * @copyright 2015 Barry Ceelen
  *
  * @wordpress-plugin
